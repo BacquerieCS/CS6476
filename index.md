@@ -1,11 +1,13 @@
 ---
+title: Home
 layout: home
+nav_order: 0
 ---
 
-# CS 7643 Deep Learning
+# CS 6476 Computer Vision
 
 This site contains (most of) my study material while taking
-[CS 7643][OCS 7643], respecting the appropriate honor codes. These materials
+[CS 6476][OCS 6476], respecting the appropriate honor codes. These materials
 include course notes, readings, exercises, assignment (high-level)
 descriptions, and some projects I did on my own time to reinforce my learning.
 
@@ -22,128 +24,110 @@ them more identifiable, and mean the following:
 * <span class="label">Assignment</span> Official assignments
 * <span class="label label-purple">Project</span> Self-assigned programming
   projects for my own learning experience. The only deliverable project is
-  [AI-assisted driving]()
+  [Stereo correspondence]()
+* <span class="label label-red">Exam</span> Exams
 
 <!--------------------------------------------------------------------------------------->
 <!-------------------------------------- SCHEDULE --------------------------------------->
 <!--------------------------------------------------------------------------------------->
 
-|                                          Week 1 | [Linear classifiers and gradient descent][WEEK 1] |
-|------------------------------------------------:|:--------------------------------------------------|
-| <span class="label label-green">Activity</span> | Quiz 0                                            |
-|           <span class="label">Assignment</span> | [Deep neural networks from scratch]() out         |
-| <span class="label label-purple">Project</span> | [Multi-car tracking]() out                        |
+|                                          Week 1 | [Images as functions <br/> Linear image processing]() |
+|------------------------------------------------:|:------------------------------------------------------|
+|           <span class="label">Assignment</span> | [Images as functions]() out and due                   |
+| <span class="label label-purple">Project</span> | [Visual sudoku solver]() out                          |
 
-|                                          Week 2 | [Deep neural networks]() |
-|------------------------------------------------:|:-------------------------|
-| <span class="label label-green">Activity</span> | Quiz 1                   |
+|                                Week 2 | [Hough transform <br/> Fourier transform]() |
+|--------------------------------------:|:--------------------------------------------|
+| <span class="label">Assignment</span> | [Traffic lights and signs]() out            |
 
-|                                          Week 3 | [Optimization of deep neural networks]()  |
-|------------------------------------------------:|:------------------------------------------|
-|           <span class="label">Assignment</span> | [Deep neural networks from scratch]() due |
-| <span class="label label-purple">Project</span> | [Multi-car tracking]() due                |
+|                                Week 3 | [Camera models <br/> Stereo geometry]() |
+|--------------------------------------:|:----------------------------------------|
+| <span class="label">Assignment</span> | [Traffic lights and signs]() due        |
 
-|                                          Week 4 | [Convolution and pooling layers]()                 |
-|------------------------------------------------:|:---------------------------------------------------|
-| <span class="label label-green">Activity</span> | Quiz 2                                             |
-|           <span class="label">Assignment</span> | [Convolutional neural networks from scratch]() out |
-| <span class="label label-purple">Project</span> | [Object detection]() out                           |
+|                                Week 4 | [Camera calibration <br/> Multiple views]() |
+|--------------------------------------:|:--------------------------------------------|
+| <span class="label">Assignment</span> | [Adventures in AR]() out                    |
 
-| Week 5 | [Convolutional neural architectures]() |
-|-------:|:---------------------------------------|
-|        | No deliverables                        |
+|                                          Week 5 | [Features]()                 |
+|------------------------------------------------:|:-----------------------------|
+|           <span class="label">Assignment</span> | [Adventures in AR]() due     |
+| <span class="label label-purple">Project</span> | [Visual sudoku solver]() due |
 
-|                                Week 6 | [Visualization <br/> Pytorch]()                    |
-|--------------------------------------:|:---------------------------------------------------|
-| <span class="label">Assignment</span> | [Convolutional neural networks from scratch]() due |
+|                                          Week 6 | [Photometry and lightness <br/> Shape from shading]() |
+|------------------------------------------------:|:------------------------------------------------------|
+|           <span class="label">Assignment</span> | [Motion detection]() out                              |
+| <span class="label label-purple">Project</span> | [Invoice data extraction]() out                       |
 
-|                                          Week 7 | [Advanced vision architectures <br/> Bias and fairness]() |
-|------------------------------------------------:|:----------------------------------------------------------|
-| <span class="label label-green">Activity</span> | Quiz 3                                                    |
-|           <span class="label">Assignment</span> | [Visualization and style transfer]() out                  |
-| <span class="label label-purple">Project</span> | [Object detection]() due                                  |
+|                                Week 7 | [Motion <br/> Optical flow]() |
+|--------------------------------------:|:------------------------------|
+| <span class="label">Assignment</span> | [Motion detection]() due      |
 
-|                                          Week 8 | [Structured representations <br/> Language models]() |
-|------------------------------------------------:|:-----------------------------------------------------|
-|           <span class="label">Assignment</span> | [Visualization and style transfer]() due             |
-| <span class="label label-purple">Project</span> | [Image captioning]() out                             |
+|                                Week 8 | [Tracking <br/> The Kalman filter]() |
+|--------------------------------------:|:-------------------------------------|
+| <span class="label">Assignment</span> | [Object tracking]() out              |
 
-|                                Week 9 | [Embeddings]()                     |
-|--------------------------------------:|:-----------------------------------|
-| <span class="label">Assignment</span> | [Neural machine translation]() out |
+|                                Week 9 | [Particle filters]()    |
+|--------------------------------------:|:------------------------|
+| <span class="label">Assignment</span> | [Object tracking]() due |
 
-|                                         Week 10 | [Neural attention models]() |
-|------------------------------------------------:|:----------------------------|
-| <span class="label label-green">Activity</span> | Final project presentation  |
-| <span class="label label-purple">Project</span> | [Image captioning]() due    |
+|                                         Week 10 | [Recognition <br/> Generative classification]() |
+|------------------------------------------------:|:------------------------------------------------|
+|           <span class="label">Assignment</span> | [Face recognition]() out                        |
+| <span class="label label-purple">Project</span> | [Invoice data extraction]() due                 |
 
-|                                         Week 11 | [Neural machine translation <br/> Automated speech recognition]() |
-|------------------------------------------------:|:------------------------------------------------------------------|
-| <span class="label label-green">Activity</span> | Quiz 4                                                            |
-|           <span class="label">Assignment</span> | [Neural machine translation]() due                                |
-| <span class="label label-purple">Project</span> | [AI-assisted driving]() out                                       |
+|                                           Week 11 | [Discriminative classification <br/> Hidden Markov models]() |
+|--------------------------------------------------:|:-------------------------------------------------------------|
+| <span class="label label-green">Assignment</span> | [Face recognition]() due                                     |
+|   <span class="label label-purple">Project</span> | [Stereo correspondence]() out                                |
+|   <span class="label label-purple">Project</span> | [F-Zero player]() out                                        |
 
-| Week 12 | [Deep reinforcement learning]() |
-|--------:|:--------------------------------|
-|         | No deliverables                 |
+| Week 12 | [Color spaces <br/> Segmentation]() |
+|--------:|:------------------------------------|
+|         | No deliverables                     |
 
-| Week 13 | [Unsupervised and semi-supervised learning]() |
-|--------:|:----------------------------------------------|
-|         | No deliverables                               |
+| Week 13 | [Binary morphology <br/> 3D perception]() |
+|--------:|:------------------------------------------|
+|         | No deliverables                           |
 
-|                                         Week 14 | [Generative models]() |
-|------------------------------------------------:|:----------------------|
-| <span class="label label-green">Activity</span> | Quiz 5                |
+| Week 14 | [The retina <br/> Vision in the brain]() |
+|--------:|:-----------------------------------------|
+|         | No deliverables                          |
 
-| Week 15 |                 |
-|--------:|:----------------|
-|         | No deliverables |
+|                                         Week 15 |                               |
+|------------------------------------------------:|:------------------------------|
+|       <span class="label label-red">Exam</span> | Final-exam review             |
+| <span class="label label-purple">Project</span> | [Stereo correspondence]() due |
+| <span class="label label-purple">Project</span> | [F-Zero player]() due         |
 
-|                                         Week 16 |                             |
-|------------------------------------------------:|:----------------------------|
-| <span class="label label-purple">Project</span> | [AI-assisted driving]() due |
+|                                   Week 16 |            |
+|------------------------------------------:|:-----------|
+| <span class="label label-red">Exam</span> | Final exam |
 
 # Grading
 
-|     Rubric      | Weight |            Actual Grade            |
-|:---------------:|:------:|:----------------------------------:|
-|     Quizzes     |  20%   |                 -                  |
-|   Assignments   |  60%   |                 -                  |
-|  Final Project  |  20%   |                 -                  |
-| **Final Grade** |   0%   | <span class="fs-8"><b>A</b></span> |
+|     Rubric      | Weight |           Actual Grade            |
+|:---------------:|:------:|:---------------------------------:|
+|   Assignments   |  70%   |                 -                 |
+|  Final Project  |  15%   |                 -                 |
+|   Final Exam    |  15%   |                 -                 |
+| **Final Grade** |   0%   | <span class="fs-8"><b></b></span> |
 
 ## Resources
 
 * **Books**
-    * [Dive Into Deep Learning][DIDL]
-    * [Deep Learning - Ian Goodfellow][Goodfellow]
 
 * **College Courses**
-    * CMU: [11-785 Introduction to Deep Learning][11-785]
-    * Gatech: [CS 7643 Deep Learning (Dhruv Batra)][CS 7643]
-    * NYU: [DS-GA 1008 Deep Learning][DS-GA 1008]
-    * UMich: [EECS 498.008 Deep Learning for Computer Vision][EECS 498.008]
+    * GaTech: [CS 4495 Computer Vision (Fall 2014)][CS 4495]
+    * GaTech: [CS 6476 Computer Vision (Frank Dellaert)][CS 6476 F]
+    * Stanford: [CS 231A Computer Vision][CS 231A]
 
 <!-------------------------------------- REFERENCES --------------------------------------->
 
-[11-785]: https://deeplearning.cs.cmu.edu/F24/
 
-[CS 7643]: https://sites.cc.gatech.edu/classes/AY2019/cs7643_fall/
+[CS 231A]: https://web.stanford.edu/class/cs231a/
 
-[DFS]: src/week1/dnn-from-scratch/
+[CS 4495]: https://faculty.cc.gatech.edu/~afb/classes/CS4495-Fall2014/
 
-[DIDL]: https://d2l.ai/
+[CS 6476 F]: https://dellaert.github.io/21F-x476/index.html
 
-[DS-GA 1008]: https://atcold.github.io/NYU-DLSP20/
-
-[EECS 498.008]: https://web.eecs.umich.edu/~justincj/teaching/eecs498/WI2022/
-
-[Goodfellow]: books/deep_learning_goodfellow.pdf
-
-[MCT]: src/week1/multi-car-tracking/
-
-[OCS 7643]: https://omscs.gatech.edu/cs-7643-deep-learning
-
-[WEEK 1]: course_notes/week_1/
-
-[notes]: notes
+[OCS 6476]: https://omscs.gatech.edu/cs-6476-computer-vision
