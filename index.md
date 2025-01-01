@@ -16,82 +16,67 @@ descriptions, and some projects I did on my own time to reinforce my learning.
 This schedule reflects my own pace and deadlines, very close to the actual
 ones but not identical.
 
-Coursework activities are classified by a name and a color in order to make
-them more identifiable, and mean the following:
+|                                          Week 1 | [Images as functions & Linear image processing]() |
+|------------------------------------------------:|:--------------------------------------------------|
+|           <span class="label">Assignment</span> | [Images as functions]() out and due               |
+| <span class="label label-purple">Project</span> | [Visual sudoku solver]() out                      |
 
-* <span class="label label-green">Activity</span> Relatively short
-  deliverables, like quizzes
-* <span class="label">Assignment</span> Official assignments
-* <span class="label label-purple">Project</span> Self-assigned programming
-  projects for my own learning experience. The only deliverable project is
-  [Stereo correspondence]()
-* <span class="label label-red">Exam</span> Exams
-
-<!--------------------------------------------------------------------------------------->
-<!-------------------------------------- SCHEDULE --------------------------------------->
-<!--------------------------------------------------------------------------------------->
-
-|                                          Week 1 | [Images as functions <br/> Linear image processing]() |
-|------------------------------------------------:|:------------------------------------------------------|
-|           <span class="label">Assignment</span> | [Images as functions]() out and due                   |
-| <span class="label label-purple">Project</span> | [Visual sudoku solver]() out                          |
-
-|                                Week 2 | [Hough transform <br/> Fourier transform]() |
-|--------------------------------------:|:--------------------------------------------|
-| <span class="label">Assignment</span> | [Traffic lights and signs]() out            |
-
-|                                Week 3 | [Camera models <br/> Stereo geometry]() |
+|                                Week 2 | [Hough transform & Fourier transform]() |
 |--------------------------------------:|:----------------------------------------|
-| <span class="label">Assignment</span> | [Traffic lights and signs]() due        |
+| <span class="label">Assignment</span> | [Traffic lights and signs]() out        |
 
-|                                Week 4 | [Camera calibration <br/> Multiple views]() |
-|--------------------------------------:|:--------------------------------------------|
-| <span class="label">Assignment</span> | [Adventures in AR]() out                    |
+|                                Week 3 | [Camera models & Stereo geometry]() |
+|--------------------------------------:|:------------------------------------|
+| <span class="label">Assignment</span> | [Traffic lights and signs]() due    |
+
+|                                Week 4 | [Camera calibration & Multiple views]() |
+|--------------------------------------:|:----------------------------------------|
+| <span class="label">Assignment</span> | [Adventures in AR]() out                |
 
 |                                          Week 5 | [Features]()                 |
 |------------------------------------------------:|:-----------------------------|
 |           <span class="label">Assignment</span> | [Adventures in AR]() due     |
 | <span class="label label-purple">Project</span> | [Visual sudoku solver]() due |
 
-|                                          Week 6 | [Photometry and lightness <br/> Shape from shading]() |
-|------------------------------------------------:|:------------------------------------------------------|
-|           <span class="label">Assignment</span> | [Motion detection]() out                              |
-| <span class="label label-purple">Project</span> | [Invoice data extraction]() out                       |
+|                                          Week 6 | [Photometry and lightness & Shape from shading]() |
+|------------------------------------------------:|:--------------------------------------------------|
+|           <span class="label">Assignment</span> | [Motion detection]() out                          |
+| <span class="label label-purple">Project</span> | [Invoice data extraction]() out                   |
 
-|                                Week 7 | [Motion <br/> Optical flow]() |
-|--------------------------------------:|:------------------------------|
-| <span class="label">Assignment</span> | [Motion detection]() due      |
+|                                Week 7 | [Motion & Optical flow]() |
+|--------------------------------------:|:--------------------------|
+| <span class="label">Assignment</span> | [Motion detection]() due  |
 
-|                                Week 8 | [Tracking <br/> The Kalman filter]() |
-|--------------------------------------:|:-------------------------------------|
-| <span class="label">Assignment</span> | [Object tracking]() out              |
+|                                Week 8 | [Tracking & The Kalman filter]() |
+|--------------------------------------:|:---------------------------------|
+| <span class="label">Assignment</span> | [Object tracking]() out          |
 
 |                                Week 9 | [Particle filters]()    |
 |--------------------------------------:|:------------------------|
 | <span class="label">Assignment</span> | [Object tracking]() due |
 
-|                                         Week 10 | [Recognition <br/> Generative classification]() |
-|------------------------------------------------:|:------------------------------------------------|
-|           <span class="label">Assignment</span> | [Face recognition]() out                        |
-| <span class="label label-purple">Project</span> | [Invoice data extraction]() due                 |
+|                                         Week 10 | [Recognition & Generative classification]() |
+|------------------------------------------------:|:--------------------------------------------|
+|           <span class="label">Assignment</span> | [Face recognition]() out                    |
+| <span class="label label-purple">Project</span> | [Invoice data extraction]() due             |
 
-|                                           Week 11 | [Discriminative classification <br/> Hidden Markov models]() |
-|--------------------------------------------------:|:-------------------------------------------------------------|
-| <span class="label label-green">Assignment</span> | [Face recognition]() due                                     |
-|   <span class="label label-purple">Project</span> | [Stereo correspondence]() out                                |
-|   <span class="label label-purple">Project</span> | [F-Zero player]() out                                        |
+|                                           Week 11 | [Discriminative classification & Hidden Markov models]() |
+|--------------------------------------------------:|:---------------------------------------------------------|
+| <span class="label label-green">Assignment</span> | [Face recognition]() due                                 |
+|   <span class="label label-purple">Project</span> | [Stereo correspondence]() out                            |
+|   <span class="label label-purple">Project</span> | [F-Zero player]() out                                    |
 
-| Week 12 | [Color spaces <br/> Segmentation]() |
-|--------:|:------------------------------------|
-|         | No deliverables                     |
+| Week 12 | [Color spaces & Segmentation]() |
+|--------:|:--------------------------------|
+|         | No deliverables                 |
 
-| Week 13 | [Binary morphology <br/> 3D perception]() |
-|--------:|:------------------------------------------|
-|         | No deliverables                           |
+| Week 13 | [Binary morphology & 3D perception]() |
+|--------:|:--------------------------------------|
+|         | No deliverables                       |
 
-| Week 14 | [The retina <br/> Vision in the brain]() |
-|--------:|:-----------------------------------------|
-|         | No deliverables                          |
+| Week 14 | [The retina & Vision in the brain]() |
+|--------:|:-------------------------------------|
+|         | No deliverables                      |
 
 |                                         Week 15 |                               |
 |------------------------------------------------:|:------------------------------|
@@ -103,14 +88,14 @@ them more identifiable, and mean the following:
 |------------------------------------------:|:-----------|
 | <span class="label label-red">Exam</span> | Final exam |
 
-# Grading
+## Grading
 
-|     Rubric      | Weight |           Actual Grade            |
-|:---------------:|:------:|:---------------------------------:|
-|   Assignments   |  70%   |                 -                 |
-|  Final Project  |  15%   |                 -                 |
-|   Final Exam    |  15%   |                 -                 |
-| **Final Grade** |   0%   | <span class="fs-8"><b></b></span> |
+|     Rubric      | Weight | Actual Grade |
+|:---------------:|:------:|:------------:|
+|   Assignments   |  70%   |      -       |
+|  Final Project  |  15%   |      -       |
+|   Final Exam    |  15%   |      -       |
+| **Final Grade** | **0%** |    **-**     |
 
 ## Resources
 
